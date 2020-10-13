@@ -1,0 +1,31 @@
+/* intro cardapio */
+
+.intro-cardapio {
+  background: url(../img/bg-intro-cardapio.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.burger-one,
+.burger-two,
+.burger-three,
+.burger-four {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 739px) {
+  .conteudo-intro {
+    max-width: 260px;
+  }
+
+  .burger-one .conteudo-cardapio p:last-child::after,
+  .burger-three .conteudo-cardapio p:last-child::after {
+    content: '';
+    display: block;
+    width: 180px;
+    height: 3px;
+    background-color: #C52228;
+    margin: 20px auto 40px auto;
+  }
+
+
+}
